@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  background: #333;
+  color: #ddd;
+  h1 {
+    padding-bottom: 5vh;
+  }
+  h3 {
+    b {
+      color: salmon;
+      font-size: 2em;
+    }
+  }
+  .input {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .outAct {
+    padding-top: 2vh;
+  }
+}
+input {
+  text-align: center;
+  &[type=password] {
+    margin-top: 2vh;
+    width: 20%;
+  }
+}
